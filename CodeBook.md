@@ -15,7 +15,7 @@ The data being used for this analysis is in a directory "UCI HAR Dataset". Here 
 
 The output data is in Step5.txt and it has 180 rows (30 subjects, multipled by 6 activities for each) and 81 columns. The first two columns are Subject ID and Activity (which is one of the following: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING or LAYING).
 
-The remaining 79 columns were selected from the full list of 561. These were identified as being related to 'mean' or 'std' data, by having one of those substrings in the header name. These are:
+The remaining 79 columns were selected from the full list of 561. These were identified as being related to 'mean' or 'std' data, by having one of those substrings in the header name. The values in these columns are time and frequency domain variables. These are:
  [1] "Subject"                         "Activity"                       
  [3] "tBodyAcc-mean()-X"               "tBodyAcc-mean()-Y"              
  [5] "tBodyAcc-mean()-Z"               "tBodyAcc-std()-X"               
