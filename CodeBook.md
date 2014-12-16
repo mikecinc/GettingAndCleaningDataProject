@@ -59,9 +59,15 @@ The remaining 79 columns were selected from the full list of 561. These were ide
 [81] "fBodyBodyGyroJerkMag-meanFreq()"
 
 Some of the commands used to produce Step5.txt are:
+
 -read.table: Read data from files into data tables in R
+
 -cbind: Combine columns of data (subject ID, activity label, variable results)
+
 -rbind: Combine rows of data (test data and training data)
+
 -names: To set the column headers to more meaningful values
+
 -grepl: To identify headers that contain certain substrings
+
 -aggregate: To get the mean according to subject and activity 
