@@ -13,13 +13,7 @@ The data being used for this analysis is in a directory "UCI HAR Dataset". Here 
 - 'test/y_test.txt': Activity labels for each row of test subject data
 - 'train/subject_test.txt': Subject ID for each row of test subject data
 
-The output data is in Step5.txt and it has 180 rows (30 subjects, multipled by 6 activities for each) and 81 columns. The first two columns are Subject ID and Activity (which is one of the following: WALKING,
- WALKING_UPSTAIRS,
- WALKING_DOWNSTAIRS
-, SITTING
-, STANDING
- or LAYING
-).
+The output data is in Step5.txt and it has 180 rows (30 subjects, multipled by 6 activities for each) and 81 columns. The first two columns are Subject ID and Activity (which is one of the following: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING or LAYING).
 
 The remaining 79 columns were selected from the full list of 561. These were identified as being related to 'mean' or 'std' data, by having one of those substrings in the header name. These are:
  [1] "Subject"                         "Activity"                       
